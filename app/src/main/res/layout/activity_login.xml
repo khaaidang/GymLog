@@ -8,21 +8,22 @@
     tools:context=".LoginActivity">
 
     <TextView
+        android:id="@+id/titleLoginTextView"
         android:layout_width="match_parent"
         android:layout_height="150dip"
-        android:id="@+id/titleLoginTextView"
-        android:textSize="42sp"
-        android:text="@string/login_welcome"
-        android:gravity="center"
         android:layout_margin="16dip"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="@string/login_welcome"
+        android:textSize="42sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/userNameLoginEditText"
         android:layout_width="match_parent"
-        android:layout_height="75dp"
+        android:layout_height="85dp"
         android:layout_margin="16dp"
         android:autofillHints="Please enter username"
         android:gravity="center"
